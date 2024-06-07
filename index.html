@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>光米的摄影世界</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #2c3e50;
+            color: #ecf0f1;
+        }
+        header {
+            background-color: #34495e;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: bold;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #2c3e50;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #ecf0f1;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            padding: 20px;
+        }
+        .section-title {
+            font-size: 2em;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 5px;
+        }
+        .about-me, .contact {
+            margin-bottom: 40px;
+        }
+        .contact p {
+            font-size: 1.2em;
+        }
+        footer {
+            background-color: #34495e;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        footer p {
+            margin: 0;
+            font-size: 1em;
+        }
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+            }
+            nav a {
+                margin: 10px 0;
+            }
+            header h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>光米的摄影世界</h1>
+    </header>
+    <nav>
+        <a href="#about-me">关于我</a>
+        <a href="#contact">联系方式</a>
+    </nav>
+    <div class="content">
+        <section id="about-me" class="about-me">
+            <h2 class="section-title">关于我</h2>
+            <p>我是光米，一名热爱人像摄影的摄影师。我喜欢捕捉人们的瞬间，展现他们最美的一面。我的摄影风格创新且简洁，力求每一张照片都能讲述一个故事。</p>
+        </section>
+        <section id="contact" class="contact">
+            <h2 class="section-title">联系方式</h2>
+            <p>如果你喜欢我的作品，欢迎通过以下方式联系我：</p>
+            <p>Email: mi.photo.paris@gmail.com</p>
+            <p>电话: 123-456-7890</p>
+            <p>微信: Augenstern_mi</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 光米. 保留所有权利.</p>
+    </footer>
+</body>
+</html>
